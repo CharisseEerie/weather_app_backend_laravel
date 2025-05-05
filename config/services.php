@@ -25,6 +25,11 @@ return [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
+    'weather' => [
+    'key' => env('OPEN_WEATHER_API_KEY'),
+    'url' => 'https://api.openweathermap.org/data/2.5/weather'
+    ],
+
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
